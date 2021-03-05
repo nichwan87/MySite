@@ -1,0 +1,250 @@
+/*Universal Selector*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: garmond;
+    vertical-align: middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*-links*/
+a:link {
+    text-decoration: none;
+    font-family: garmond;
+    color: rgb(210,112,93);
+}
+
+a:visited {
+    text-decoration: none;
+    color: #8AB7F8;
+}  
+
+a:hover {
+    color: rgb(81,238,10);
+    transform: rotate(-3deg);
+}
+
+a:active {
+    color: papayawhip;
+    text-decoration: underline overline;
+}
+
+
+/*header*/
+header {
+    background-size: cover;
+    height: fit-content;
+    background-image: url(../images/Tmplwall.JPG);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px inset whitesmoke;
+    border-radius: 20px;
+    margin: .2%;
+    padding: 1%;
+}
+
+h1 { 
+    position: static;
+    font-family: brush script MT;
+    color:crimson;
+    padding: 20px; 
+    z-index: 1;
+    background-color: linen;
+    width: fit-content;
+    place-items: center;
+    margin: 1% auto auto 1%;
+    border-radius: 15px;
+}
+
+h1:hover {
+    border: 2px outset rgb(81,238,10);
+    transform: rotate(2deg); 
+}
+
+h2 {
+    margin-left: 1%;
+    margin-right: auto;
+    width: 50px;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li:hover {
+    text-decoration: underline;
+    transform: rotate(-3deg);
+}
+
+.headerp {
+    position: absolute;
+    color:crimson;
+    padding: 1%;
+    background-color:rgb(81,238,10); 
+    width: 10%;
+    border-radius: 30px;
+    margin: -2% auto auto 39%;
+    font-style: oblique;
+}
+
+.headerp:hover {
+    transform: rotate(3deg);
+    color: #333;
+    border: 2px outset rgb(red, green, blue);
+}
+
+#headnav1 {
+    color: #333;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #333;
+    place-items: center;
+    width: fit-content;
+    margin: 2%;
+    border: 1px outset rgb(81,238,10);
+    border-radius: 50px;
+    margin: -2% auto auto 75%;
+    padding: 1%;
+    font-style: oblique;
+}
+
+#headnav2 {
+    color: #333;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #333;
+    place-items: center;
+    width: fit-content;
+    margin: 2%;
+    border: 1px inset rgb(0,113,197);
+    border-radius: 50px;
+    margin: -1% auto auto 85%;
+    padding: 1%;
+    font-style: oblique;
+}
+
+#homeheader {
+    position: sticky;
+}
+
+
+
+/*footer*/
+footer {
+    padding: 1%;
+    background-image: url(../images/Coffee.JPG);
+    place-items: center;
+    border: 1px none;
+    border-radius: 8px;
+    margin: .25%;
+}    
+
+
+footer nav li {
+    display: inline;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer a:link {
+    color:snow;
+}
+
+footer a:hover {
+    color:rgb(81,238,10);
+    transform: rotate(-3deg);
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #8AB7F8;
+}  
+
+footer a:active {
+    color: papayawhip;
+    text-decoration: underline overline;
+}
+
+.use {
+    margin: 1% auto auto 40%;
+    color: #fff;
+    background-color: #333;
+    width: fit-content;
+    align-self: center;
+}
+
+
+/*about me*/
+.mystory {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 12% 0% 11%;
+    padding: 2%;
+    border-left: 2px inset rgb(81,238,10);
+    position: relative;
+}
+
+.mystory:hover {
+    background-color: seashell;
+}
+
+#aboutme {
+    display: inline-flex;
+    flex-wrap: wrap;
+    place-content: center;
+    padding-top: 1%;  
+}
+
+/*tiled section*/
+
+.indxcd {
+    padding: 1%;
+    color:khaki;
+    border: 1px inset whitesmoke;
+    border-radius: 5px;
+    box-shadow:seashell;
+    padding: 5px;
+    flex: 0 0 80%;
+    margin: 20px;
+    text-align: center;
+}
+
+.indxcd:hover {
+    border-color:rgb(81,238,10);
+    color: black;  
+}
+
+.tile {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    flex-direction: row;
+    margin: 1% auto auto 15%;
+}
+
+.indxcd2 {
+    padding: 1%;
+    color:black;
+    border: 1px inset whitesmoke;
+    border-radius: 5px;
+    box-shadow:seashell;
+    overflow-y: scroll;
+    text-align: center;
+    opacity: 85%;
+    width: 40%;
+}
+
+.indxcd2:hover {
+    opacity: 100%;
+    border-color:rgb(81,238,10);
+    color: black;
+}
+
+
